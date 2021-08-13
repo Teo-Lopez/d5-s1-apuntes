@@ -9,6 +9,7 @@ class Friend {
   constructor(name, age) {
     this.name = name
     this.age = age
+    this.isFriend = true
   }
 
   //métodos
@@ -43,6 +44,8 @@ class BestFriend extends Friend {
     //el super le da los datos necesarios al padre (clase Friend)
     super(name, age)
     this.bestFriendName = bestFriendName
+    this.isFriend = false
+    this.isBestFriend = true
   }
 
   introduceBestFriend() {

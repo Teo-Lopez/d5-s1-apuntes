@@ -8,7 +8,7 @@
 
 //con getElement
 document.getElementById("submit-button")
-document.getElementsByClassName(".grey-background")
+document.getElementsByClassName("grey-background")
 
 //by id
 document.querySelector("#submit-button")
